@@ -3,15 +3,12 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
 module.exports = {
   siteMetadata: {
     title: `ProjektEvil`,
-    siteUrl: `http://localhost:8004/`
+    siteUrl: `https://www.yourdomain.tld`
   },
   plugins: [{
     resolve: 'gatsby-source-wordpress',
     options: {
-      schema: {
-        timeout: 60000,
-      },
-      "url": "http://localhost:8004/___graphql"
+      "url": "https:/graphql"
     }
   }, "gatsby-plugin-styled-components", "gatsby-plugin-image", "gatsby-transformer-remark", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
