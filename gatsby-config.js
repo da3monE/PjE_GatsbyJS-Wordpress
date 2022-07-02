@@ -8,7 +8,7 @@ module.exports = {
   plugins: [{
     resolve: 'gatsby-source-wordpress',
     options: {
-      "url": "localhost:8000"
+      "url": "localhost:8000/graphql"
     }
   }, "gatsby-plugin-styled-components", "gatsby-plugin-image", "gatsby-transformer-remark", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
