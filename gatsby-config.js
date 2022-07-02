@@ -11,7 +11,7 @@ module.exports = {
       schema: {
         timeout: 60000,
       },
-      "url": "http://localhost:8000"
+      "url": "https://localhost/graphql"
     }
   }, "gatsby-plugin-styled-components", "gatsby-plugin-image", "gatsby-transformer-remark", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
