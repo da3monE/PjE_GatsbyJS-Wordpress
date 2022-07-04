@@ -6,7 +6,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `ProjektEvil`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://localhost/`
   },
   plugins: [{
     resolve: 'gatsby-source-wordpress',
