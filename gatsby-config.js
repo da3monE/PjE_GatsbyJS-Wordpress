@@ -1,9 +1,9 @@
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"
+/*process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"*/
 
 module.exports = {
   siteMetadata: {
     title: `ProjektEvil`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `pjegatsbyjswordpressmain.gatsbyjs.io`
   },
   plugins: [{
     resolve: 'gatsby-source-wordpress',
